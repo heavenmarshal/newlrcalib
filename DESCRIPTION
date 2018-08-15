@@ -1,0 +1,7 @@
+Package: newlrcalib
+Version: 1.0-1
+Date: 2017-10-25
+Author: Ru Zhang
+Depends: R (>= 2.14)
+Imports: parallel, fOptions, laGP, rgenoud
+NeedsCompilation: yes

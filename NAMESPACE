@@ -1,0 +1,10 @@
+useDynLib(newlrcalib)
+export(lrcalib,lrcalibseq,lrcalibseqtr,
+       lrcalibseqset,lrcalibseqsettr,
+       lrcalibseqopt,lrcalibseqopttr)
+importFrom(parallel,makeCluster)
+importFrom(parallel,parApply)
+importFrom(parallel,stopCluster)
+importFrom(fOptions,runif.sobol)
+importFrom(laGP,darg)
+importFrom(rgenoud,genoud)
